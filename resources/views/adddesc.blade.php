@@ -95,7 +95,7 @@
                     <div class="box-body">
                         <center>
                             <button class="btn btn-primary" style="margin: 0 5px;">Save Photos</button>
-                            <a href="upload"><button type="button" class="btn btn-default" style="margin: 0 5px;">Cancel</button></a>
+                            <a href="upload" class="btn btn-default">Cancel</a>
                         </center>
                     </div>
                 </div>
