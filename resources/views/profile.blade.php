@@ -7,7 +7,7 @@
     <div class="box">
         <div class="box-body">
             <div class='col-md-3'>
-                <img class='profile-user-img img-responsive img-circle' src='/storage/img/user/5LpZTSoakuTybx4xrqI0spvS7LK6zlV1WnADKVFE{{ $auth->photo }}' style='height: 250px; width: 800px;'>
+                <img class='profile-user-img img-responsive img-circle' src='storage/{{ $auth->photo }}' style='height: 250px; width: 800px;'>
             </div>
             <div class='col-md-9'>
                 <h3 class="profile-username">

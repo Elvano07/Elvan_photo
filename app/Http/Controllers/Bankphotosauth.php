@@ -91,7 +91,7 @@ class Bankphotosauth extends Controller
         $users->fullname    = $request->fullname;
         $users->gender      = $request->gender;
         $users->password    = bcrypt($request->password);
-        $users->photo       = "img/whitescreen.jpg";
+        $users->photo       = "users/5LpZTSoakuTybx4xrqI0spvS7LK6zlV1WnADKVFE.png";
 
         $users->save();
 
