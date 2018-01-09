@@ -4,8 +4,8 @@
 
 @section('content')
     <div class='container-fluid'>
+    
     @foreach($photos as $key0 => $value0)
-
     @foreach($value0 as $key1 => $value1)
     <div class='row'>
             <div class='col-md-12'>
@@ -57,8 +57,8 @@
             </div>
         </div>
     @endforeach
-    
     @endforeach
+
     </div>
 @endsection
 
