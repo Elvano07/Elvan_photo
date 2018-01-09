@@ -4,9 +4,9 @@
 
 @section('content')
     <div class='container-fluid'>
-    {{-- @foreach($photos as $key0 => $value0) --}}
+    @foreach($photos as $key0 => $value0)
 
-   {{-- @foreach($value0 as $key1 => $value1)
+   @foreach($value0 as $key1 => $value1)
     <div class='row'>
             <div class='col-md-12'>
                 <h4>{{ $bulan[$key0][$key1]['bulan'] }} {{ $bulan[$key0]['tahun'] }}</h4>
@@ -56,8 +56,10 @@
                 @endforeach
             </div>
         </div>
-    @endforeach --}}
+    @endforeach
+    @endforeach
 
+    {{-- 
     <div class='row'>
         <div class='col-md-12'>
             <!-- <h4>$bulan[$key0][$key1]['bulan'] $bulan[$key0]['tahun']</h4> -->
@@ -117,6 +119,7 @@
             </div>
         </div>
     </div>
+    --}}
 @endsection
 
 @section('javascript')

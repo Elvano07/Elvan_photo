@@ -26,9 +26,9 @@ class Home extends Controller
         $data['categories'] = Categories::orderBy('name')->get();
 
 
-        $photo = Photos::where('title', '!=', 'NULL')->orderBy('created_at', 'DESC')->get();
+        $data['photos'] = Photos::where('title', '!=', 'NULL')->orderBy('created_at', 'DESC')->get();
 
-        return View('home', $data, compact('photo'));
+        // return View('home', $data, compact('photo'));
     
 
    // public function index(){

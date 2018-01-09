@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adjustmentBaseVersion</key>
+	<integer>0</integer>
+	<key>adjustmentData</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGGhtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKUHCBESE1UkbnVsbNMJCgsMDhBXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6EN
+	gAKhD4ADgARdbG9jYWxEZWR1cEtleV8QGzloQk9sZzVnWUcwaTFWRU9Tb0pjQk9jYVJC
+	MNIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxYY
+	GVxOU0RpY3Rpb25hcnlYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRHB1Ucm9vdIAB
+	CBEaIy0yNz1DSlJdZGZoamxufJqfqrPJzdrj9fj9AAAAAAAAAQEAAAAAAAAAHgAAAAAA
+	AAAAAAAAAAAAAP8=
+	</data>
+	<key>adjustmentEditorBundleID</key>
+	<string>com.google.photos</string>
+	<key>adjustmentFormatIdentifier</key>
+	<string>com.google.photos.editing.filtering.nondestructive</string>
+	<key>adjustmentFormatVersion</key>
+	<string>1.1</string>
+</dict>
+</plist>
