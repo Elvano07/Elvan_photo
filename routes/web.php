@@ -23,8 +23,6 @@ Route::middleware('deletePhoto')->group(function()
 
     Route::get('/upload', 'Upload@index')->name('upload')->middleware('auth');
     // Route::post('upload', 'Upload@uploadPost')->name('upload.post')->middleware('auth');
-    Route::post('upload', 'Upload@uploadPost');
-    Route::post('testupload', 'Upload@testupload');
 
     Route::get('/trash', 'Trash@index')->name('trash')->middleware('auth');
     Route::post('/trash/restore', 'Trash@restore')->name('trash.restore')->middleware('auth');
@@ -84,3 +82,5 @@ Route::get('storage/users/{filename}', function ($filename)
 
 Route::get('adddesc', 'Home@adddesc');
 Route::post('adddesc', 'Home@savephoto');
+Route::post('upload', 'Upload@uploadPost');
+Route::post('testupload', 'Upload@testupload');
